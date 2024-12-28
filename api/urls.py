@@ -4,6 +4,7 @@ from .views import *
 
 router = DefaultRouter()
 router.register('task', TaskViewSet)
+router.register('user', UserRegistrationViewSet)
 
 
 
